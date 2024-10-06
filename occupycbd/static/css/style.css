@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(20, 0, 30);
+}
+/* styling my navbar to hover while it's bold and with a change of color */
+.navbar-nav .nav-link:hover{
+    font-weight: bold;
+    color: #4fff6c;
+    font-size: 20px;
+}
+
+/* fontsize for my title at image part */
+.navbar-brand{
+    font-size: 30px;
+}
+
+/* bg-color of my navbar */
+.navbar-dark{
+    background-color: rgb(90, 14, 212);
+}
+
+/* Styling our image at home page */
+.circular-image-container{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 40%;
+    border: 2px solid #754fff;
+
+
+/* Ensuring our image appears at the circle we created above */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ensuring our image appears at the centre of the circle at our home page */
+.circular-image {
+    width: 220px;
+    height: 200px;
+    display: block;
+
+}
+
+.title{
+    color:#4fff6c;
+}
+.name{
+    color:#fff;
+}
+
+.social_links{
+    overflow: hidden;
+    border-radius: 40%;
+    border: 2px solid #754fff;
+
+
+}
+
+.about_image{
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+.text-center{
+    color: #4fff6c;
+}
+
+.jumbtron{
+    background-color: #002244;
+    padding:20px;
+    border-radius:10px;
+}
+
+.display4 {
+    color: #eef3f8;
+    font-size: 24px;
+}
+    
+.lead {
+    font-size: 18px;
+    color:#02b43e;
+}
+    
+.form-container {
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}

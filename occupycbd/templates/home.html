@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content1 %} 
+
+<div class="row my-5">
+
+    <!-- Aligning our image at the center of our home page by use of bootstrap(first div)-->
+    <div class="col-12 d-flex justify-content-center align-items-center">
+        <div class="circular-image-container">
+            <img class= "circular-image" src=" {% static 'images/tech.jpg' %}" alt="image">
+        </div>
+    </div>
+    <div class="col-12 text-center mt-3">
+        <h4 class="title"> Hi, my name is DevMinds.</h4>
+        <div class="name">
+            <h1>I Design and Develop Experiences</h1>
+            <h1>making people's lives simple</h1>
+        </div>
+    </div>
+
+    <!-- Links to my social media using images as links-->
+    <div class="col-12 text-center mt-3">
+
+        <a href="http://www.linkedin.com/in/muturi" target="_blank" rel="noopener noreferrer" class=" ms-3">
+            <img src="{% static 'images/linkedin.jpg' %}" alt="images/linkedin.jpg" width="50" height="50" class="social_links">
+        </a>
+
+        <a href="#" target="_blank" rel="noopener noreferrer" class=" ms-3"></a>
+            <img src="{% static 'images/IG.jpg' %}" alt="images/IG.jpg" width="50" height="50" class="social_links">
+        </a>
+
+        <a href="#" target="_blank" rel="noopener noreferrer" class=" ms-3"></a>
+            <img src="{% static 'images/whatsapp.jpg' %}" alt="images/whatsapp.jpg" width="50" height="50" class="social_links">
+        </a>
+
+        <a href="#" target="_blank" rel="noopener noreferrer" class=" ms-3"></a>
+            <img src="{% static 'images/x.jpg' %}" alt="images/x.jpg" width="50" height="50" class="social_links">
+        </a>
+
+    </div>
+</div>
+
+
+ {% endblock content1 %}
